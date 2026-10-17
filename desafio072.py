@@ -1,6 +1,5 @@
 def ordena_por_tamanho(lista):
-    lista_ordenada = sorted(lista, key=len)
-    return lista_ordenada
+    return sorted(lista, key=len)
 
 
 print(ordena_por_tamanho(['python', 'sol', 'casa', 'computador', 'rio']))
